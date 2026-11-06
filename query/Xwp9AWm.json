@@ -1,0 +1,44 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "cvsgo1y",
+      "queryStrId": "Xwp9AWm"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:xuIrVT1}",
+      "description": null,
+      "direct": true,
+      "directPush": true,
+      "entityName": "Test Mongo 01",
+      "identifier": "cvsgo1y",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select *",
+        "datasourceId": "${ref:datasource:xuIrVT1}",
+        "direct": true,
+        "discovery": {
+          "limit": 100,
+          "tableName": "sendingActivity"
+        },
+        "entityName": "Test Mongo 01",
+        "queryStr": "db['sendingActivity'].find().limit(100)",
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": true
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "Xwp9AWm",
+      "triggerDatasetId": 0
+    }
+  ]
+}
