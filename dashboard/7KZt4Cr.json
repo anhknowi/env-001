@@ -1,0 +1,19 @@
+{
+  "dashboards": [
+    {
+      "dashAccessLevel": 0,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "7KZt4Cr",
+      "jsonConfig": null,
+      "locked": 0,
+      "name": "Anh Dashboard 01",
+      "screenAdjust": 1,
+      "screenHeight": 0,
+      "screenWidth": 1238,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}
