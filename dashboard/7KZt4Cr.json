@@ -1,4 +1,22 @@
 {
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:cvsgo1y}",
+      "col": 1,
+      "dashboardIdentifier": "7KZt4Cr",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 22,
+      "sizeY": 13,
+      "sizeYOriginal": 0,
+      "width": 0
+    }
+  ],
   "dashboards": [
     {
       "dashAccessLevel": 0,
