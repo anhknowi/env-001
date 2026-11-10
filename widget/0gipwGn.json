@@ -1,0 +1,219 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "0gipwGn",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[\"556a882c97a0b51431b7969f\",163848,\"Transactional\",\"Facebook\",\"Thu Jan 01 08:00:00 UTC 2015\",\"Thu Dec 25 08:00:00 UTC 2014\",38449,410,10447,157082,10282,2012,\"Account\"]"
+    },
+    {
+      "chartUrl": "0gipwGn",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "0gipwGn",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "0gipwGn",
+      "dashboardIdentifier": null,
+      "property": "chart.wBorderVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "0gipwGn",
+      "dashboardIdentifier": null,
+      "property": "chart.wTitleVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "0gipwGn",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation.header",
+      "value": "false"
+    },
+    {
+      "chartUrl": "0gipwGn",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "0gipwGn",
+      "dashboardIdentifier": null,
+      "property": "grid.columnLines",
+      "value": "false"
+    },
+    {
+      "chartUrl": "0gipwGn",
+      "dashboardIdentifier": null,
+      "property": "grid.disableClickToSort",
+      "value": "false"
+    },
+    {
+      "chartUrl": "0gipwGn",
+      "dashboardIdentifier": null,
+      "property": "grid.hideGroupingColumn",
+      "value": "false"
+    },
+    {
+      "chartUrl": "0gipwGn",
+      "dashboardIdentifier": null,
+      "property": "grid.resetColumnWidth",
+      "value": "false"
+    },
+    {
+      "chartUrl": "0gipwGn",
+      "dashboardIdentifier": null,
+      "property": "grid2.default.cellWrap",
+      "value": "false"
+    },
+    {
+      "chartUrl": "0gipwGn",
+      "dashboardIdentifier": null,
+      "property": "grid2.default.headerWrap",
+      "value": "false"
+    },
+    {
+      "chartUrl": "0gipwGn",
+      "dashboardIdentifier": null,
+      "property": "grid2.merge_cells",
+      "value": "false"
+    },
+    {
+      "chartUrl": "0gipwGn",
+      "dashboardIdentifier": null,
+      "property": "grid2.pagination.computeTotalCount",
+      "value": "true"
+    },
+    {
+      "chartUrl": "0gipwGn",
+      "dashboardIdentifier": null,
+      "property": "grid2.pagination.navigationMode",
+      "value": "scroll"
+    },
+    {
+      "chartUrl": "0gipwGn",
+      "dashboardIdentifier": null,
+      "property": "loadUponPrompt",
+      "value": "false"
+    },
+    {
+      "chartUrl": "0gipwGn",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "0gipwGn",
+      "dashboardIdentifier": null,
+      "property": "scale",
+      "value": "false"
+    },
+    {
+      "chartUrl": "0gipwGn",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:true,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Copy of Test Mongo 02",
+      "datasetId": "${ref:dataset:cvsgo1y}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "bounced",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "campaign_name",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "clicks",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "conversions",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "customer",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "date",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "delivered",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "id",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "message_type",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "opened",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "sent",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "spam",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "week",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "0gipwGn",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "0gipwGn",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}
