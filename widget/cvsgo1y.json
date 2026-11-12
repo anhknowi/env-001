@@ -3,216 +3,25 @@
     {
       "chartUrl": "cvsgo1y",
       "dashboardIdentifier": null,
-      "property": "chart.firstRow",
-      "value": "[\"556a882c97a0b51431b7969f\",163848,\"Transactional\",\"Facebook\",\"Thu Jan 01 08:00:00 UTC 2015\",\"Thu Dec 25 08:00:00 UTC 2014\",38449,410,10447,157082,10282,2012,\"Account\"]"
-    },
-    {
-      "chartUrl": "cvsgo1y",
-      "dashboardIdentifier": null,
-      "property": "chart.quickpickers",
-      "value": "0"
-    },
-    {
-      "chartUrl": "cvsgo1y",
-      "dashboardIdentifier": null,
       "property": "chart.type",
       "value": "datagrid2"
-    },
-    {
-      "chartUrl": "cvsgo1y",
-      "dashboardIdentifier": null,
-      "property": "chart.wBorderVisibility",
-      "value": "inherit_from_dash"
-    },
-    {
-      "chartUrl": "cvsgo1y",
-      "dashboardIdentifier": null,
-      "property": "chart.wTitleVisibility",
-      "value": "inherit_from_dash"
-    },
-    {
-      "chartUrl": "cvsgo1y",
-      "dashboardIdentifier": null,
-      "property": "grid.aggregation.header",
-      "value": "false"
-    },
-    {
-      "chartUrl": "cvsgo1y",
-      "dashboardIdentifier": null,
-      "property": "grid.collapsible",
-      "value": "false"
-    },
-    {
-      "chartUrl": "cvsgo1y",
-      "dashboardIdentifier": null,
-      "property": "grid.columnLines",
-      "value": "false"
-    },
-    {
-      "chartUrl": "cvsgo1y",
-      "dashboardIdentifier": null,
-      "property": "grid.disableClickToSort",
-      "value": "false"
-    },
-    {
-      "chartUrl": "cvsgo1y",
-      "dashboardIdentifier": null,
-      "property": "grid.hideGroupingColumn",
-      "value": "false"
-    },
-    {
-      "chartUrl": "cvsgo1y",
-      "dashboardIdentifier": null,
-      "property": "grid.resetColumnWidth",
-      "value": "false"
-    },
-    {
-      "chartUrl": "cvsgo1y",
-      "dashboardIdentifier": null,
-      "property": "grid2.default.cellWrap",
-      "value": "false"
-    },
-    {
-      "chartUrl": "cvsgo1y",
-      "dashboardIdentifier": null,
-      "property": "grid2.default.headerWrap",
-      "value": "false"
-    },
-    {
-      "chartUrl": "cvsgo1y",
-      "dashboardIdentifier": null,
-      "property": "grid2.merge_cells",
-      "value": "false"
-    },
-    {
-      "chartUrl": "cvsgo1y",
-      "dashboardIdentifier": null,
-      "property": "grid2.pagination.computeTotalCount",
-      "value": "true"
-    },
-    {
-      "chartUrl": "cvsgo1y",
-      "dashboardIdentifier": null,
-      "property": "grid2.pagination.navigationMode",
-      "value": "scroll"
-    },
-    {
-      "chartUrl": "cvsgo1y",
-      "dashboardIdentifier": null,
-      "property": "loadUponPrompt",
-      "value": "false"
-    },
-    {
-      "chartUrl": "cvsgo1y",
-      "dashboardIdentifier": null,
-      "property": "repeatableWidget.showRepeatingPanel",
-      "value": "false"
-    },
-    {
-      "chartUrl": "cvsgo1y",
-      "dashboardIdentifier": null,
-      "property": "scale",
-      "value": "false"
-    },
-    {
-      "chartUrl": "cvsgo1y",
-      "dashboardIdentifier": null,
-      "property": "widgetDisplayOptions",
-      "value": "w-export-to-excel:true,highchart-context-menu:true"
     }
   ],
   "charts": [
     {
       "access": 0,
       "category": null,
-      "chartName": "Test Mongo 02",
+      "chartName": "Test Mongo 01",
       "datasetId": "${ref:dataset:cvsgo1y}",
-      "description": "",
+      "description": null,
       "drilldown": 0,
       "filterSettings": null,
-      "jsonConfig": {
-        "fields": [
-          {
-            "fieldName": "bounced",
-            "fieldType": "java.lang.Integer",
-            "ntz": false
-          },
-          {
-            "fieldName": "campaign_name",
-            "fieldType": "java.lang.String",
-            "ntz": false
-          },
-          {
-            "fieldName": "clicks",
-            "fieldType": "java.lang.Integer",
-            "ntz": false
-          },
-          {
-            "fieldName": "conversions",
-            "fieldType": "java.lang.Integer",
-            "ntz": false
-          },
-          {
-            "fieldName": "customer",
-            "fieldType": "java.lang.String",
-            "ntz": false
-          },
-          {
-            "fieldName": "date",
-            "fieldType": "java.util.Date",
-            "ntz": false
-          },
-          {
-            "fieldName": "delivered",
-            "fieldType": "java.lang.Integer",
-            "ntz": false
-          },
-          {
-            "fieldName": "id",
-            "fieldType": "java.lang.String",
-            "ntz": false
-          },
-          {
-            "fieldName": "message_type",
-            "fieldType": "java.lang.String",
-            "ntz": false
-          },
-          {
-            "fieldName": "opened",
-            "fieldType": "java.lang.Integer",
-            "ntz": false
-          },
-          {
-            "fieldName": "sent",
-            "fieldType": "java.lang.Integer",
-            "ntz": false
-          },
-          {
-            "fieldName": "spam",
-            "fieldType": "java.lang.Integer",
-            "ntz": false
-          },
-          {
-            "fieldName": "week",
-            "fieldType": "java.util.Date",
-            "ntz": false
-          }
-        ]
-      },
+      "jsonConfig": null,
       "liveRefresh": -1,
       "query": 0,
       "type": 21,
       "url": "cvsgo1y",
       "urlShareWhitelistDomain": null
-    }
-  ],
-  "discoveryConfigs": [
-    {
-      "c9Query": "",
-      "chartUrl": "cvsgo1y",
-      "jsonConfig": [],
-      "queryIdentifier": "",
-      "queryStrId": ""
     }
   ],
   "format": 1
